@@ -11,13 +11,9 @@ MSDscript is an interpreted scripting language implementation featuring arithmet
 **Key capabilities:**
 
 Expression Evaluation: Arithmetic operations, variable binding, and conditional logic
-
 Function Support: First-class functions with lexical scoping
-
 Memory Safety: Smart pointers for automatic garbage collection
-
 Testing Framework: Randomized property-based testing
-
 Toolchain Integration: Makefile build system with Catch2 testing
 
 **Tech Stack:**
@@ -31,11 +27,7 @@ Toolchain Integration: Makefile build system with Catch2 testing
 **This educational project evolved through 12 development phases to implement:**
 
 - Recursive-descent parser with AST generation
-
 - Environment-based interpreter with closure support
-
 - Smart pointer memory management system
-
 - Property-based test framework
-
 - Qt-based debugging interface
