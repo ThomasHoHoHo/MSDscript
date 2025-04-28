@@ -9,6 +9,7 @@ Project Owner: Thomas Ho
 MSDscript is an interpreted scripting language implementation featuring arithmetic operations, variables, functions, and advanced memory management. Developed as part of advanced software construction coursework, this project demonstrates core compiler/interpreter concepts through 12 iterative development phases.
 
 **Key capabilities:**
+
 Expression Evaluation: Arithmetic operations, variable binding, and conditional logic
 Function Support: First-class functions with lexical scoping
 Memory Safety: Smart pointers for automatic garbage collection
