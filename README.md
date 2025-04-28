@@ -34,7 +34,6 @@ Toolchain Integration: Makefile build system with Catch2 testing
 ## Key Features ✨
 
 ### 1. Advanced Grammar Parsing
-```bnf
 <expr> = <number> 
        | <expr> + <expr>
        | <expr> * <expr>
@@ -42,6 +41,4 @@ Toolchain Integration: Makefile build system with Catch2 testing
        | _let <var> = <expr> _in <expr>
        | _if <expr> _then <expr> _else <expr>
 
-3 + 5 * 2        # Interps to 13
-(2 + 3) * (4 - 1) # Interps to 15
-1 + 2 == 3       # Evaluates to _true
+
