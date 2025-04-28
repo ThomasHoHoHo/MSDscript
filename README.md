@@ -49,5 +49,27 @@ Toolchain Integration: Makefile build system with Catch2 testing
 (2 + 3) * (4 - 1) # Interps to 15
 1 + 2 == 3       # Evaluates to _true
 ```
+### 3. Let Bindings & Functions
+```bnf
+_let factorial = _fun (fact)
+                _fun (n)
+                  _if n == 1
+                  _then 1
+                  _else n * fact(fact)(n - 1)
+_in factorial(factorial)(5)  # Returns 120
+```
+
+### 4. Boolean Logic & Error Handling
+```bnf
+_if (2 + 2 == 5) _then 1 _else 0  # Returns 0
+_let x = _true _in x + 5          # Throws "Cannot add boolean to number"
+```
+
+### 5. Smart Memory Management
+```bnf
+// Automatic garbage collection
+PTR(Expr) e = NEW(Add)(NEW(Num)(3), NEW(Num)(5));
+```
+
 
 
