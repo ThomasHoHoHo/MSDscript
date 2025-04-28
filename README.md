@@ -26,3 +26,15 @@ Tech Stack
 - Testing: Catch2
 - Build System: CMake
 - Memory Management: Smart Pointers (std::shared_ptr)
+
+This educational project evolved through 12 development phases to implement:
+
+Recursive-descent parser with AST generation
+
+Environment-based interpreter with closure support
+
+Smart pointer memory management system
+
+Property-based test framework
+
+Qt-based debugging interface
