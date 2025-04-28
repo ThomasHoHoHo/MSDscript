@@ -5,6 +5,7 @@ A C++ Scripting Language Implementation with Qt GUI
 Project Owner: Thomas Ho
 
 Overview
+
 MSDscript is an interpreted scripting language implementation featuring arithmetic operations, variables, functions, and advanced memory management. Developed as part of advanced software construction coursework, this project demonstrates core compiler/interpreter concepts through 12 iterative development phases.
 
 Key capabilities:
