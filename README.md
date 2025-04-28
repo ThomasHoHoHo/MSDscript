@@ -30,12 +30,12 @@ Toolchain Integration: Makefile build system with Catch2 testing
 
 **This educational project evolved through 12 development phases to implement:**
 
-Recursive-descent parser with AST generation
+- Recursive-descent parser with AST generation
 
-Environment-based interpreter with closure support
+- Environment-based interpreter with closure support
 
-Smart pointer memory management system
+- Smart pointer memory management system
 
-Property-based test framework
+- Property-based test framework
 
-Qt-based debugging interface
+- Qt-based debugging interface
